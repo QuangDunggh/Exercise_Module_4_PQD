@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout/layout :: head">
+    <title>List customer</title>
+</head>
+<body>
+<h2>Customer List</h2>
+<p>
+    <a th:href="@{/create}">
+        Add new customer
+    </a>
+</p>
+
+<table id="customer"></table>
+</body>
+<footer th:replace="/layout/layout :: footer"></footer>
+</html>
